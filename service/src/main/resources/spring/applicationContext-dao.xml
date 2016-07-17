@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"
+       default-autowire="byName">
+
+    <bean id="documentDAO" class="com.lsk.database.MyJadeDAOBeanFactory">
+          <property name="daoClass" value="com.lsk.search.dao.DocumentDAO"/>
+    </bean>
+
+    <bean id="ftsIndexDAO" class="com.lsk.database.MyJadeDAOBeanFactory">
+        <property name="daoClass" value="com.lsk.search.dao.FTSIndexDAO"/>
+    </bean>
+
+    <bean id="wordPositionDAO" class="com.lsk.database.MyJadeDAOBeanFactory">
+        <property name="daoClass" value="com.lsk.search.dao.WordPositionDAO"/>
+    </bean>
+
+    <bean id="wordDAO" class="com.lsk.database.MyJadeDAOBeanFactory">
+        <property name="daoClass" value="com.lsk.search.dao.WordDAO"/>
+    </bean>
+</beans>

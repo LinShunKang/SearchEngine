@@ -1,0 +1,101 @@
+2016-07-04  00:22:53.799 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-04  00:22:54.805 [main] INFO  DICLOG - init user userLibrary ok path is : /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/src/main/resources/dic/default.dic
+2016-07-04  00:22:54.806 [main] INFO  DICLOG - init ambiguityLibrary ok!
+2016-07-04  00:22:55.457 [main] INFO  DICLOG - init core library ok use time :609
+2016-07-04  00:22:55.841 [main] INFO  DICLOG - init ngram ok use time :378
+2016-07-04  00:22:57.028 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-04  00:23:03.435 [main] INFO   - wordService.getAll() isEmpty!
+2016-07-04  00:23:04.154 [main] INFO   - ftsIndexService.getAllFTSIndex() isEmpty!
+2016-07-04  00:23:12.515 [main] INFO   - searchEngine.addSearchIndex(1, 算法（Algorithm）是指解题方案的准确而完整的描述描述描述描述，是一系列解决问题的清晰指令，算法代表着用系统的方法描述解决问题的策略机制。): true
+2016-07-04  00:23:13.966 [main] INFO   - searchEngine.addSearchIndex(2, 也就是说，能够对一定规范的输入，在有限时间内获得所要求的输出"): true
+2016-07-04  00:23:14.394 [main] INFO   - searchEngine.addSearchIndex(3, 如果一个算法有缺陷，或不适合于某个问题，执行这个算法将不会解决这个问题。): true
+2016-07-04  00:23:14.763 [main] INFO   - searchEngine.addSearchIndex(4, 一个算法的优劣可以用空间复杂度与时间复杂度来衡量。): true
+2016-07-04  00:23:15.646 [main] INFO   - searchEngine.addSearchIndex(5, 算法中的指令描述的是一个计算，当其运行时能从一个初始状态和（可能为空的）初始输入开始，经过一系列有限而清晰定义的状态，最终产生输出并停止于一个终态。): true
+2016-07-04  00:23:16.476 [main] INFO   - searchEngine.addSearchIndex(6, 一个状态到另一个状态的转移不一定是确定的。): true
+2016-07-04  00:23:59.631 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-04  00:24:00.764 [main] INFO  DICLOG - init user userLibrary ok path is : /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/src/main/resources/dic/default.dic
+2016-07-04  00:24:00.776 [main] INFO  DICLOG - init ambiguityLibrary ok!
+2016-07-04  00:24:01.537 [main] INFO  DICLOG - init core library ok use time :690
+2016-07-04  00:24:01.941 [main] INFO  DICLOG - init ngram ok use time :396
+2016-07-04  00:24:03.148 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-04  00:29:31.776 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-04  00:29:32.618 [main] INFO  DICLOG - init user userLibrary ok path is : /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/src/main/resources/dic/default.dic
+2016-07-04  00:29:32.618 [main] INFO  DICLOG - init ambiguityLibrary ok!
+2016-07-04  00:29:33.459 [main] INFO  DICLOG - init core library ok use time :811
+2016-07-04  00:29:33.821 [main] INFO  DICLOG - init ngram ok use time :357
+2016-07-04  00:29:34.988 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-04  00:30:55.516 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-04  00:30:56.413 [main] INFO  DICLOG - init user userLibrary ok path is : /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/src/main/resources/dic/default.dic
+2016-07-04  00:30:56.413 [main] INFO  DICLOG - init ambiguityLibrary ok!
+2016-07-04  00:30:57.324 [main] INFO  DICLOG - init core library ok use time :845
+2016-07-04  00:30:57.687 [main] INFO  DICLOG - init ngram ok use time :357
+2016-07-04  00:30:58.791 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-04  00:33:35.086 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-04  00:33:35.976 [main] INFO  DICLOG - init user userLibrary ok path is : /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/src/main/resources/dic/default.dic
+2016-07-04  00:33:35.979 [main] INFO  DICLOG - init ambiguityLibrary ok!
+2016-07-04  00:33:36.760 [main] INFO  DICLOG - init core library ok use time :716
+2016-07-04  00:33:37.203 [main] INFO  DICLOG - init ngram ok use time :436
+2016-07-04  00:33:38.278 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-04  00:33:59.350 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-04  00:34:00.218 [main] INFO  DICLOG - init user userLibrary ok path is : /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/src/main/resources/dic/default.dic
+2016-07-04  00:34:00.219 [main] INFO  DICLOG - init ambiguityLibrary ok!
+2016-07-04  00:34:01.038 [main] INFO  DICLOG - init core library ok use time :782
+2016-07-04  00:34:01.410 [main] INFO  DICLOG - init ngram ok use time :367
+2016-07-04  00:34:02.540 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-04  00:35:01.191 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-04  00:35:02.206 [main] INFO  DICLOG - init user userLibrary ok path is : /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/src/main/resources/dic/default.dic
+2016-07-04  00:35:02.206 [main] INFO  DICLOG - init ambiguityLibrary ok!
+2016-07-04  00:35:03.187 [main] INFO  DICLOG - init core library ok use time :959
+2016-07-04  00:35:03.613 [main] INFO  DICLOG - init ngram ok use time :420
+2016-07-04  00:35:04.688 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-04  00:35:47.235 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-04  00:35:48.083 [main] INFO  DICLOG - init user userLibrary ok path is : /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/src/main/resources/dic/default.dic
+2016-07-04  00:35:48.083 [main] INFO  DICLOG - init ambiguityLibrary ok!
+2016-07-04  00:35:48.986 [main] INFO  DICLOG - init core library ok use time :874
+2016-07-04  00:35:49.363 [main] INFO  DICLOG - init ngram ok use time :370
+2016-07-04  00:35:50.616 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-04  00:37:13.929 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-04  00:37:14.782 [main] INFO  DICLOG - init user userLibrary ok path is : /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/src/main/resources/dic/default.dic
+2016-07-04  00:37:14.783 [main] INFO  DICLOG - init ambiguityLibrary ok!
+2016-07-04  00:37:15.663 [main] INFO  DICLOG - init core library ok use time :857
+2016-07-04  00:37:16.040 [main] INFO  DICLOG - init ngram ok use time :371
+2016-07-04  00:37:17.136 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-04  00:39:02.147 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-04  00:39:03.162 [main] INFO  DICLOG - init user userLibrary ok path is : /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/src/main/resources/dic/default.dic
+2016-07-04  00:39:03.163 [main] INFO  DICLOG - init ambiguityLibrary ok!
+2016-07-04  00:39:03.948 [main] INFO  DICLOG - init core library ok use time :760
+2016-07-04  00:39:04.349 [main] INFO  DICLOG - init ngram ok use time :394
+2016-07-04  00:39:05.627 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-04  00:43:15.605 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-04  00:43:16.703 [main] INFO  DICLOG - init user userLibrary ok path is : /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/src/main/resources/dic/default.dic
+2016-07-04  00:43:16.704 [main] INFO  DICLOG - init ambiguityLibrary ok!
+2016-07-04  00:43:17.512 [main] INFO  DICLOG - init core library ok use time :781
+2016-07-04  00:43:17.954 [main] INFO  DICLOG - init ngram ok use time :431
+2016-07-04  00:43:19.200 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-04  00:44:11.864 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-04  00:44:12.739 [main] INFO  DICLOG - init user userLibrary ok path is : /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/src/main/resources/dic/default.dic
+2016-07-04  00:44:12.750 [main] INFO  DICLOG - init ambiguityLibrary ok!
+2016-07-04  00:44:13.649 [main] INFO  DICLOG - init core library ok use time :860
+2016-07-04  00:44:14.019 [main] INFO  DICLOG - init ngram ok use time :364
+2016-07-04  00:44:15.074 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-04  00:45:01.002 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-04  00:45:01.847 [main] INFO  DICLOG - init user userLibrary ok path is : /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/src/main/resources/dic/default.dic
+2016-07-04  00:45:01.848 [main] INFO  DICLOG - init ambiguityLibrary ok!
+2016-07-04  00:45:02.720 [main] INFO  DICLOG - init core library ok use time :846
+2016-07-04  00:45:03.142 [main] INFO  DICLOG - init ngram ok use time :416
+2016-07-04  00:45:04.181 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-04  00:45:31.234 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-04  00:45:32.057 [main] INFO  DICLOG - init user userLibrary ok path is : /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/src/main/resources/dic/default.dic
+2016-07-04  00:45:32.075 [main] INFO  DICLOG - init ambiguityLibrary ok!
+2016-07-04  00:45:36.526 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-04  00:45:37.504 [main] INFO  DICLOG - init user userLibrary ok path is : /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/src/main/resources/dic/default.dic
+2016-07-04  00:45:37.505 [main] INFO  DICLOG - init ambiguityLibrary ok!
+2016-07-04  00:45:38.237 [main] INFO  DICLOG - init core library ok use time :698
+2016-07-04  00:45:38.620 [main] INFO  DICLOG - init ngram ok use time :377
+2016-07-04  00:45:39.914 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-04  00:46:10.983 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-04  00:46:12.057 [main] INFO  DICLOG - init user userLibrary ok path is : /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/src/main/resources/dic/default.dic
+2016-07-04  00:46:12.057 [main] INFO  DICLOG - init ambiguityLibrary ok!
+2016-07-04  00:46:12.761 [main] INFO  DICLOG - init core library ok use time :676
+2016-07-04  00:46:13.180 [main] INFO  DICLOG - init ngram ok use time :411
+2016-07-04  00:46:14.362 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited

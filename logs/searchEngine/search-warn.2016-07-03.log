@@ -1,0 +1,37 @@
+2016-07-03  00:09:16.926 [main] WARN  com.lsk.search.util.StopWords - 1-2-3
+2016-07-03  00:18:06.284 [main] WARN   - 1-2-3
+2016-07-03  00:23:23.964 [main] WARN   - 1-2-3
+2016-07-03  00:24:22.226 [main] WARN   - 1-2-3
+2016-07-03  00:29:46.017 [main] WARN   - 1-2-3
+2016-07-03  03:25:19.597 [main] WARN  DICLOG - not find library.properties in classpath use it by default !
+2016-07-03  03:25:19.615 [main] WARN  DICLOG - init userLibrary  warning :/exchange/Dropbox/MyWorkspace/JavaWorkspace/SearchEngine/library/default.dic because : file not found or failed to read !
+2016-07-03  03:25:19.621 [main] WARN  DICLOG - init ambiguity  warning :/exchange/Dropbox/MyWorkspace/JavaWorkspace/SearchEngine/library/ambiguity.dic because : file not found or failed to read !
+2016-07-03  03:27:05.005 [main] WARN  DICLOG - not find library.properties in classpath use it by default !
+2016-07-03  03:27:05.023 [main] WARN  DICLOG - init userLibrary  warning :/exchange/Dropbox/MyWorkspace/JavaWorkspace/SearchEngine/library/default.dic because : file not found or failed to read !
+2016-07-03  03:27:05.024 [main] WARN  DICLOG - init ambiguity  warning :/exchange/Dropbox/MyWorkspace/JavaWorkspace/SearchEngine/library/ambiguity.dic because : file not found or failed to read !
+2016-07-03  12:32:20.815 [main] WARN  DICLOG - not find library.properties in classpath use it by default !
+2016-07-03  12:32:20.833 [main] WARN  DICLOG - init userLibrary  warning :/exchange/Dropbox/MyWorkspace/JavaWorkspace/SearchEngine/library/default.dic because : file not found or failed to read !
+2016-07-03  12:32:20.835 [main] WARN  DICLOG - init ambiguity  warning :/exchange/Dropbox/MyWorkspace/JavaWorkspace/SearchEngine/library/ambiguity.dic because : file not found or failed to read !
+2016-07-03  12:33:21.788 [main] WARN  DICLOG - not find library.properties in classpath use it by default !
+2016-07-03  12:33:21.793 [main] WARN  DICLOG - init userLibrary  warning :/exchange/Dropbox/MyWorkspace/JavaWorkspace/SearchEngine/library/default.dic because : file not found or failed to read !
+2016-07-03  12:33:21.794 [main] WARN  DICLOG - init ambiguity  warning :/exchange/Dropbox/MyWorkspace/JavaWorkspace/SearchEngine/library/ambiguity.dic because : file not found or failed to read !
+2016-07-03  13:50:27.859 [main] WARN  DICLOG - not find library.properties in classpath use it by default !
+2016-07-03  13:50:27.872 [main] WARN  DICLOG - init userLibrary  warning :/exchange/Dropbox/MyWorkspace/JavaWorkspace/SearchEngine/library/default.dic because : file not found or failed to read !
+2016-07-03  13:50:27.876 [main] WARN  DICLOG - init ambiguity  warning :/exchange/Dropbox/MyWorkspace/JavaWorkspace/SearchEngine/library/ambiguity.dic because : file not found or failed to read !
+2016-07-03  16:56:50.254 [main] WARN  DICLOG - not find library.properties in classpath use it by default !
+2016-07-03  16:56:50.255 [main] WARN  DICLOG - init userLibrary  warning :/exchange/Dropbox/MyWorkspace/JavaWorkspace/SearchEngine/library/default.dic because : file not found or failed to read !
+2016-07-03  16:56:50.258 [main] WARN  DICLOG - init ambiguity  warning :/exchange/Dropbox/MyWorkspace/JavaWorkspace/SearchEngine/library/ambiguity.dic because : file not found or failed to read !
+2016-07-03  17:23:14.985 [main] WARN  DICLOG - init userLibrary  warning :/exchange/Dropbox/MyWorkspace/JavaWorkspace/SearchEngine/dic/default.dic because : file not found or failed to read !
+2016-07-03  17:23:15.003 [main] WARN  DICLOG - init ambiguity  warning :/exchange/Dropbox/MyWorkspace/JavaWorkspace/SearchEngine/dic/ambiguity.dic because : file not found or failed to read !
+2016-07-03  17:27:26.159 [main] WARN  DICLOG - init userLibrary  warning :/exchange/Dropbox/MyWorkspace/JavaWorkspace/SearchEngine/classpath:dic/default.dic because : file not found or failed to read !
+2016-07-03  17:27:26.161 [main] WARN  DICLOG - init ambiguity  warning :/exchange/Dropbox/MyWorkspace/JavaWorkspace/SearchEngine/classpath:dic/ambiguity.dic because : file not found or failed to read !
+2016-07-03  17:34:40.443 [main] WARN  DICLOG - init userLibrary  warning :/exchange/Dropbox/MyWorkspace/JavaWorkspace/SearchEngine/library/dic/default.dic because : file not found or failed to read !
+2016-07-03  17:34:40.444 [main] WARN  DICLOG - init ambiguity  warning :/exchange/Dropbox/MyWorkspace/JavaWorkspace/SearchEngine/library/dic/ambiguity.dic because : file not found or failed to read !
+2016-07-03  17:35:15.387 [main] WARN  DICLOG - init userLibrary  warning :/exchange/Dropbox/MyWorkspace/JavaWorkspace/SearchEngine/library/dic/default.dic because : file not found or failed to read !
+2016-07-03  17:35:15.389 [main] WARN  DICLOG - init ambiguity  warning :/exchange/Dropbox/MyWorkspace/JavaWorkspace/SearchEngine/library/dic/ambiguity.dic because : file not found or failed to read !
+2016-07-03  17:35:27.299 [main] WARN  DICLOG - init userLibrary  warning :/exchange/Dropbox/MyWorkspace/JavaWorkspace/SearchEngine/library/dic/default.dic because : file not found or failed to read !
+2016-07-03  17:35:27.301 [main] WARN  DICLOG - init ambiguity  warning :/exchange/Dropbox/MyWorkspace/JavaWorkspace/SearchEngine/library/dic/ambiguity.dic because : file not found or failed to read !
+2016-07-03  17:36:39.734 [main] WARN  DICLOG - init userLibrary  warning :/exchange/Dropbox/MyWorkspace/JavaWorkspace/SearchEngine/dic/default.dic because : file not found or failed to read !
+2016-07-03  17:36:39.736 [main] WARN  DICLOG - init ambiguity  warning :/exchange/Dropbox/MyWorkspace/JavaWorkspace/SearchEngine/dic/ambiguity.dic because : file not found or failed to read !
+2016-07-03  17:37:15.272 [main] WARN  DICLOG - init userLibrary  warning :/exchange/Dropbox/MyWorkspace/JavaWorkspace/SearchEngine/../dic/default.dic because : file not found or failed to read !
+2016-07-03  17:37:15.273 [main] WARN  DICLOG - init ambiguity  warning :/exchange/Dropbox/MyWorkspace/JavaWorkspace/SearchEngine/../dic/ambiguity.dic because : file not found or failed to read !

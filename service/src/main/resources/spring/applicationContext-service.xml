@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--suppress SpringFacetInspection -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"
+       default-autowire="byName">
+
+    <!-- 自动扫描 -->
+    <context:annotation-config/>
+    <context:component-scan base-package="com.lsk.search.dao"/>
+
+    <bean id="documentService" class="com.lsk.search.service.impl.DocumentServiceImpl">
+        <property name="documentDAO" ref="documentDAO"/>
+    </bean>
+
+    <bean id="ftsIndexService" class="com.lsk.search.service.impl.FTSIndexServiceImpl">
+        <property name="ftsIndexDAO" ref="ftsIndexDAO"/>
+    </bean>
+
+    <bean id="participleService" class="com.lsk.search.service.impl.ParticipleServiceImpl"/>
+
+    <bean id="wordService" class="com.lsk.search.service.impl.WordServiceImpl">
+        <property name="wordDAO" ref="wordDAO"/>
+    </bean>
+
+    <bean id="searchEngine" class="com.lsk.search.service.impl.SearchEngineImpl">
+        <property name="participleService" ref="participleService"/>
+        <property name="wordPositionService" ref="wordPositionService"/>
+        <property name="wordService" ref="wordService"/>
+        <property name="ftsIndexService" ref="ftsIndexService"/>
+    </bean>
+
+    <bean id="searchService" class="com.lsk.search.service.impl.SearchServiceImpl">
+        <property name="searchEngine" ref="searchEngine"/>
+        <property name="documentService" ref="documentService"/>
+    </bean>
+
+    <bean id="wordPositionService" class="com.lsk.search.service.impl.WordPositionServiceImpl">
+        <property name="wordPositionDAO" ref="wordPositionDAO"/>
+    </bean>
+
+
+</beans>
+

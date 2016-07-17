@@ -1,0 +1,142 @@
+2016-07-03  00:09:16.926 [main] INFO  com.lsk.search.util.StopWords - 1-2-3
+2016-07-03  00:18:06.279 [main] INFO   - 1-2-3
+2016-07-03  00:23:23.959 [main] INFO   - class com.lsk.search.util.StopWordsaaaa
+2016-07-03  00:23:23.964 [main] INFO   - 1-2-3
+2016-07-03  00:24:22.215 [main] INFO   - StopWords-aaaa
+2016-07-03  00:24:22.226 [main] INFO   - 1-2-3
+2016-07-03  00:29:46.012 [main] INFO   - StopWords-aaaa
+2016-07-03  00:29:46.017 [main] INFO   - 1-2-3
+2016-07-03  00:43:06.417 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-03  03:25:20.812 [main] INFO  DICLOG - init core library ok use time :1091
+2016-07-03  03:25:21.264 [main] INFO  DICLOG - init ngram ok use time :434
+2016-07-03  03:27:06.072 [main] INFO  DICLOG - init core library ok use time :1009
+2016-07-03  03:27:06.659 [main] INFO  DICLOG - init ngram ok use time :563
+2016-07-03  12:32:22.391 [main] INFO  DICLOG - init core library ok use time :1494
+2016-07-03  12:32:23.110 [main] INFO  DICLOG - init ngram ok use time :679
+2016-07-03  12:33:23.002 [main] INFO  DICLOG - init core library ok use time :1157
+2016-07-03  12:33:23.706 [main] INFO  DICLOG - init ngram ok use time :675
+2016-07-03  13:50:28.812 [main] INFO  DICLOG - init core library ok use time :872
+2016-07-03  13:50:29.231 [main] INFO  DICLOG - init ngram ok use time :407
+2016-07-03  16:55:47.479 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-03  16:56:30.062 [main] INFO   - documentService.save(Document{id=0, title='全文搜索引擎', body='全文搜索引擎是目前广泛应用的主流搜索引擎。它的工作原理是计算机索引程序通过扫描文章中的每一个词，对每一个词建立一个索引，指明该词在文章中出现的次数和位置，当用户查询时，检索程序就根据事先建立的索引进行查找，并将查找的结果反馈给用户的检索方式。这个过程类似于通过字典中的检索字表查字的过程。', addTime=null, updateTime=null})
+2016-07-03  16:56:35.545 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-03  16:57:11.727 [main] INFO  DICLOG - init core library ok use time :21403
+2016-07-03  16:57:50.224 [main] INFO  DICLOG - init ngram ok use time :38307
+2016-07-03  17:00:19.643 [main] INFO   - searchEngine.addSearchIndex(1, 全文搜索引擎是目前广泛应用的主流搜索引擎。它的工作原理是计算机索引程序通过扫描文章中的每一个词，对每一个词建立一个索引，指明该词在文章中出现的次数和位置，当用户查询时，检索程序就根据事先建立的索引进行查找，并将查找的结果反馈给用户的检索方式。这个过程类似于通过字典中的检索字表查字的过程。): true
+2016-07-03  17:22:46.187 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-03  17:23:14.958 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-03  17:23:42.822 [main] INFO  DICLOG - init core library ok use time :21412
+2016-07-03  17:24:21.047 [main] INFO  DICLOG - init ngram ok use time :38036
+2016-07-03  17:27:23.650 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-03  17:27:26.155 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-03  17:27:47.172 [main] INFO  DICLOG - init core library ok use time :20946
+2016-07-03  17:28:25.127 [main] INFO  DICLOG - init ngram ok use time :37768
+2016-07-03  17:34:33.930 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-03  17:34:40.440 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-03  17:34:41.136 [main] INFO  DICLOG - init core library ok use time :677
+2016-07-03  17:34:41.565 [main] INFO  DICLOG - init ngram ok use time :417
+2016-07-03  17:35:15.380 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-03  17:35:16.388 [main] INFO  DICLOG - init core library ok use time :972
+2016-07-03  17:35:17.052 [main] INFO  DICLOG - init ngram ok use time :636
+2016-07-03  17:35:27.294 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-03  17:35:28.213 [main] INFO  DICLOG - init core library ok use time :887
+2016-07-03  17:35:28.904 [main] INFO  DICLOG - init ngram ok use time :674
+2016-07-03  17:36:39.714 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-03  17:36:40.813 [main] INFO  DICLOG - init core library ok use time :1047
+2016-07-03  17:36:41.372 [main] INFO  DICLOG - init ngram ok use time :528
+2016-07-03  17:37:15.265 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-03  17:37:16.228 [main] INFO  DICLOG - init core library ok use time :912
+2016-07-03  17:37:16.859 [main] INFO  DICLOG - init ngram ok use time :605
+2016-07-03  17:40:09.381 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-03  17:40:10.424 [main] INFO  DICLOG - init user userLibrary ok path is : /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/src/main/resources/dic/default.dic
+2016-07-03  17:40:10.425 [main] INFO  DICLOG - init ambiguityLibrary ok!
+2016-07-03  17:40:11.110 [main] INFO  DICLOG - init core library ok use time :659
+2016-07-03  17:40:11.527 [main] INFO  DICLOG - init ngram ok use time :410
+2016-07-03  17:40:44.302 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-03  17:40:53.230 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-03  17:41:34.319 [main] INFO  DICLOG - init user userLibrary ok path is : /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/src/main/resources/dic/default.dic
+2016-07-03  17:41:34.320 [main] INFO  DICLOG - init ambiguityLibrary ok!
+2016-07-03  17:41:55.150 [main] INFO  DICLOG - init core library ok use time :20763
+2016-07-03  17:42:32.263 [main] INFO  DICLOG - init ngram ok use time :36926
+2016-07-03  17:46:24.951 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-03  17:46:25.941 [main] INFO  DICLOG - init user userLibrary ok path is : /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/src/main/resources/dic/default.dic
+2016-07-03  17:46:25.942 [main] INFO  DICLOG - init ambiguityLibrary ok!
+2016-07-03  17:46:26.720 [main] INFO  DICLOG - init core library ok use time :726
+2016-07-03  17:46:27.115 [main] INFO  DICLOG - init ngram ok use time :389
+2016-07-03  17:46:31.910 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-03  17:47:37.938 [main] INFO   - searchEngine.addSearchIndex(6, 全文搜索引擎是目前广泛应用的主流搜索引擎。它的工作原理是计算机索引程序通过扫描文章中的每一个词，对每一个词建立一个索引，指明该词在文章中出现的次数和位置，当用户查询时，检索程序就根据事先建立的索引进行查找，并将查找的结果反馈给用户的检索方式。这个过程类似于通过字典中的检索字表查字的过程。): true
+2016-07-03  17:47:41.122 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-03  17:47:42.224 [main] INFO  DICLOG - init user userLibrary ok path is : /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/src/main/resources/dic/default.dic
+2016-07-03  17:47:42.225 [main] INFO  DICLOG - init ambiguityLibrary ok!
+2016-07-03  17:47:43.137 [main] INFO  DICLOG - init core library ok use time :865
+2016-07-03  17:47:43.525 [main] INFO  DICLOG - init ngram ok use time :382
+2016-07-03  17:47:44.836 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-03  17:51:26.229 [main] INFO   - searchEngine.addSearchIndex(7, 全文搜索引擎是目前广泛应用的主流搜索引擎。它的工作原理是计算机索引程序通过扫描文章中的每一个词，对每一个词建立一个索引，指明该词在文章中出现的次数和位置，当用户查询时，检索程序就根据事先建立的索引进行查找，并将查找的结果反馈给用户的检索方式。这个过程类似于通过字典中的检索字表查字的过程。): true
+2016-07-03  17:51:28.937 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-03  17:51:29.936 [main] INFO  DICLOG - init user userLibrary ok path is : /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/src/main/resources/dic/default.dic
+2016-07-03  17:51:29.939 [main] INFO  DICLOG - init ambiguityLibrary ok!
+2016-07-03  17:51:30.763 [main] INFO  DICLOG - init core library ok use time :762
+2016-07-03  17:51:31.151 [main] INFO  DICLOG - init ngram ok use time :383
+2016-07-03  17:51:32.371 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-03  17:53:53.918 [main] INFO   - searchEngine.addSearchIndex(8, 全文搜索引擎是目前广泛应用的主流搜索引擎。它的工作原理是计算机索引程序通过扫描文章中的每一个词，对每一个词建立一个索引，指明该词在文章中出现的次数和位置，当用户查询时，检索程序就根据事先建立的索引进行查找，并将查找的结果反馈给用户的检索方式。这个过程类似于通过字典中的检索字表查字的过程。): true
+2016-07-03  17:53:58.204 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-03  17:53:59.338 [main] INFO  DICLOG - init user userLibrary ok path is : /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/src/main/resources/dic/default.dic
+2016-07-03  17:53:59.339 [main] INFO  DICLOG - init ambiguityLibrary ok!
+2016-07-03  17:54:00.295 [main] INFO  DICLOG - init core library ok use time :890
+2016-07-03  17:54:00.731 [main] INFO  DICLOG - init ngram ok use time :429
+2016-07-03  17:54:02.017 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-03  17:55:27.469 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-03  17:55:28.488 [main] INFO  DICLOG - init user userLibrary ok path is : /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/src/main/resources/dic/default.dic
+2016-07-03  17:55:28.489 [main] INFO  DICLOG - init ambiguityLibrary ok!
+2016-07-03  17:55:29.151 [main] INFO  DICLOG - init core library ok use time :613
+2016-07-03  17:55:29.541 [main] INFO  DICLOG - init ngram ok use time :383
+2016-07-03  17:55:30.796 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-03  17:58:38.702 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-03  17:58:39.838 [main] INFO  DICLOG - init user userLibrary ok path is : /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/src/main/resources/dic/default.dic
+2016-07-03  17:58:39.839 [main] INFO  DICLOG - init ambiguityLibrary ok!
+2016-07-03  17:58:40.610 [main] INFO  DICLOG - init core library ok use time :721
+2016-07-03  17:58:40.992 [main] INFO  DICLOG - init ngram ok use time :376
+2016-07-03  17:58:42.159 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-03  18:00:42.824 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-03  18:00:43.892 [main] INFO  DICLOG - init user userLibrary ok path is : /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/src/main/resources/dic/default.dic
+2016-07-03  18:00:43.892 [main] INFO  DICLOG - init ambiguityLibrary ok!
+2016-07-03  18:00:44.777 [main] INFO  DICLOG - init core library ok use time :854
+2016-07-03  18:00:45.159 [main] INFO  DICLOG - init ngram ok use time :376
+2016-07-03  18:00:46.452 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-03  18:01:58.051 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-03  18:01:59.076 [main] INFO  DICLOG - init user userLibrary ok path is : /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/src/main/resources/dic/default.dic
+2016-07-03  18:01:59.077 [main] INFO  DICLOG - init ambiguityLibrary ok!
+2016-07-03  18:01:59.993 [main] INFO  DICLOG - init core library ok use time :886
+2016-07-03  18:02:00.480 [main] INFO  DICLOG - init ngram ok use time :480
+2016-07-03  18:02:01.762 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-03  18:03:32.567 [main] INFO   - searchEngine.addSearchIndex(13, 全文搜索引擎是目前广泛应用的主流搜索引擎。它的工作原理是计算机索引程序通过扫描文章中的每一个词，对每一个词建立一个索引，指明该词在文章中出现的次数和位置，当用户查询时，检索程序就根据事先建立的索引进行查找，并将查找的结果反馈给用户的检索方式。这个过程类似于通过字典中的检索字表查字的过程。): true
+2016-07-03  19:57:47.727 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-03  19:57:48.761 [main] INFO  DICLOG - init user userLibrary ok path is : /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/src/main/resources/dic/default.dic
+2016-07-03  19:57:48.762 [main] INFO  DICLOG - init ambiguityLibrary ok!
+2016-07-03  19:57:49.415 [main] INFO  DICLOG - init core library ok use time :622
+2016-07-03  19:57:49.818 [main] INFO  DICLOG - init ngram ok use time :396
+2016-07-03  19:57:54.498 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-03  20:00:42.576 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2016-07-03  20:02:33.812 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-03  20:02:34.859 [main] INFO  DICLOG - init user userLibrary ok path is : /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/src/main/resources/dic/default.dic
+2016-07-03  20:02:34.860 [main] INFO  DICLOG - init ambiguityLibrary ok!
+2016-07-03  20:02:35.511 [main] INFO  DICLOG - init core library ok use time :629
+2016-07-03  20:02:35.893 [main] INFO  DICLOG - init ngram ok use time :376
+2016-07-03  20:02:39.948 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-03  20:05:21.197 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2016-07-03  20:06:57.547 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-03  20:06:58.575 [main] INFO  DICLOG - init user userLibrary ok path is : /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/src/main/resources/dic/default.dic
+2016-07-03  20:06:58.581 [main] INFO  DICLOG - init ambiguityLibrary ok!
+2016-07-03  20:06:59.269 [main] INFO  DICLOG - init core library ok use time :648
+2016-07-03  20:06:59.665 [main] INFO  DICLOG - init ngram ok use time :389
+2016-07-03  20:07:03.832 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-03  20:08:05.741 [main] INFO   - searchEngine.addSearchIndex(14, 全文搜索引擎是目前广泛应用的主流搜索引擎。它的工作原理是计算机索引程序通过扫描文章中的每一个词，对每一个词建立一个索引，指明该词在文章中出现的次数和位置，当用户查询时，检索程序就根据事先建立的索引进行查找，并将查找的结果反馈给用户的检索方式。这个过程类似于通过字典中的检索字表查字的过程。): true
+2016-07-03  20:10:24.060 [main] INFO  DICLOG - load library not find in classPath ! i find it in /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/target/classes/ansj_library.properties make sure it is your config!
+2016-07-03  20:10:25.006 [main] INFO  DICLOG - init user userLibrary ok path is : /home/thinker/MyWorkSpace/JavaWorkspace/SearchEngine/service/src/main/resources/dic/default.dic
+2016-07-03  20:10:25.007 [main] INFO  DICLOG - init ambiguityLibrary ok!
+2016-07-03  20:10:25.795 [main] INFO  DICLOG - init core library ok use time :762
+2016-07-03  20:10:26.172 [main] INFO  DICLOG - init ngram ok use time :371
+2016-07-03  20:10:28.655 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2016-07-03  20:10:35.191 [main] INFO   - wordService.getAll() isEmpty!
+2016-07-03  20:10:42.728 [main] INFO   - ftsIndexService.getAllFTSIndex() isEmpty!
+2016-07-03  23:48:59.155 [main] INFO   - searchEngine.addSearchIndex(1, 全文搜索引擎是目前广泛应用的主流搜索引擎。它的工作原理是计算机索引程序通过扫描文章中的每一个词，对每一个词建立一个索引，指明该词在文章中出现的次数和位置，当用户查询时，检索程序就根据事先建立的索引进行查找，并将查找的结果反馈给用户的检索方式。这个过程类似于通过字典中的检索字表查字的过程。): true
