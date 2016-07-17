@@ -6,12 +6,14 @@ import com.lsk.search.service.DocumentService;
 import com.lsk.search.service.SearchEngine;
 import com.lsk.search.service.SearchService;
 import org.apache.commons.collections4.CollectionUtils;
+import org.apache.commons.collections4.map.HashedMap;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.util.Assert;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by LinShunkang on 7/3/16.
@@ -52,12 +54,42 @@ public class SearchServiceImpl implements SearchService, InitializingBean {
             if (CollectionUtils.isEmpty(docIdList)) {
                 return EMPTY_DOC_LIST;
             }
-             //TODO:这里不能直接这么写，因为直接用id in(1,2)这种的话，MySQL会按照主键的顺序返回，而不是按给的ID的顺序返回！！！
-            return documentService.getByIdList(docIdList);
+            return getDocList(docIdList);
         } catch (Exception e) {
             LoggerManager.error("SearchServiceImpl.suggest({}, {})", sentence, count, e);
         }
         return EMPTY_DOC_LIST;
+    }
+
+    private List<Document> getDocList(List<Long> docIdList) {
+        List<Document> documentList = documentService.getByIdList(docIdList);
+        if (CollectionUtils.isEmpty(docIdList)) {
+            return EMPTY_DOC_LIST;
+        }
+
+        Map<Long, Document> idDocMap = getIdDocMap(documentList);
+        return getDocList(docIdList, idDocMap);
+    }
+
+    private Map<Long, Document> getIdDocMap(List<Document> documentList) {
+        Map<Long, Document> idDocMap = new HashedMap<Long, Document>((int) (documentList.size() / 0.75 + 1));
+        for (int i = 0; i < documentList.size(); ++i) {
+            Document doc = documentList.get(i);
+            idDocMap.put(doc.getId(), doc);
+        }
+        return idDocMap;
+    }
+
+    private List<Document> getDocList(List<Long> docIdList, Map<Long, Document> idDocMap) {
+        List<Document> result = new ArrayList<Document>(docIdList.size());
+        for (int i = 0; i < docIdList.size(); ++i) {
+            long docId = docIdList.get(i);
+            Document doc = idDocMap.get(docId);
+            if (doc != null) {
+                result.add(doc);
+            }
+        }
+        return result;
     }
 
     public void setSearchEngine(SearchEngine searchEngine) {

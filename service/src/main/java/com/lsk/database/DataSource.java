@@ -5,5 +5,5 @@ package com.lsk.database;
  */
 public interface DataSource {
 
-    String CATALOG_SEARCH = "jade.dataSource.com.lsk.search.dao";
+    String CATALOG_SEARCH = "search";
 }

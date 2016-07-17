@@ -4,6 +4,8 @@ import com.lsk.search.model.Document;
 import com.lsk.search.service.SearchService;
 import com.lsk.search.service.impl.SearchServiceImpl;
 import com.lsk.utils.Performance;
+import org.ansj.domain.Result;
+import org.ansj.splitWord.analysis.IndexAnalysis;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.ArrayList;
@@ -12,19 +14,19 @@ import java.util.List;
 /**
  * Created by LinShunkang on 7/4/16.
  */
-public class SearchEnginTest {
+public class SearchEngineTest {
     private static String[] CONFIG_PATH = {"classpath*:spring/*.xml"};
 
     final ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(CONFIG_PATH);
 
     public static void main(String[] args) throws InterruptedException {
 //        new SpringContextTest().test();
-        ANSJTest.main(null);
-        SearchEnginTest searchEnginTest = new SearchEnginTest();
-//        searchEnginTest.initDocList();
+       IndexAnalysis.parse("");
+        SearchEngineTest searchEngineTest = new SearchEngineTest();
+//        searchEngineTest.initDocList();
 
-        for (int i = 0; i < 1; ++i) {
-            searchEnginTest.search();
+        for (int i = 0; i < 2; ++i) {
+            searchEngineTest.search();
         }
     }
 
@@ -54,7 +56,7 @@ public class SearchEnginTest {
         long start = System.nanoTime();
 //        List<Document> documents = searchService.suggest("算法", 3);
 //        List<Document> documents = searchService.suggest("描述", 3);
-        List<Document> documents = searchService.suggest("状态的转移", 3);
+        List<Document> documents = searchService.suggest("指令描述", 3);
         System.out.println(Performance.getTimeCost2Millis(start));
         print(documents);
     }

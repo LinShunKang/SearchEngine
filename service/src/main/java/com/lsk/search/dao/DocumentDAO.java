@@ -1,5 +1,6 @@
 package com.lsk.search.dao;
 
+import com.lsk.database.DataSource;
 import com.lsk.search.model.Document;
 import net.paoding.rose.jade.annotation.DAO;
 import net.paoding.rose.jade.annotation.ReturnGeneratedKeys;
@@ -21,7 +22,7 @@ import java.util.List;
  * PRIMARY KEY(id)
  * )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='文档记录表';
  */
-@DAO
+@DAO(catalog = DataSource.CATALOG_SEARCH)
 public interface DocumentDAO {
 
     String TABLE_NAME = "document";

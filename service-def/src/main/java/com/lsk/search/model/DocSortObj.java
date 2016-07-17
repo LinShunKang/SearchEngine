@@ -1,7 +1,5 @@
 package com.lsk.search.model;
 
-import java.util.Collections;
-
 /**
  * Created by LinShunkang on 7/3/16.
  */
